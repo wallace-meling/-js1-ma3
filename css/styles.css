@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+  }
+  
+  .games-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .after {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  
+  .loader {
+    font-size: 100px;
+  }
+  
+  .game-card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(
+      313deg,
+      rgba(85, 39, 124, 1) 46%,
+      rgba(55, 9, 232, 1) 100%
+    );
+    color: whitesmoke;
+  }
+  
+  .error {
+    border: 1px solid white;
+    padding: 30px;
+    background: linear-gradient(
+      153deg,
+      rgba(0, 0, 0, 1) 61%,
+      rgba(232, 9, 9, 1) 100%
+    );
+  }
